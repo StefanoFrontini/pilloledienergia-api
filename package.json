@@ -1,0 +1,31 @@
+{
+  "name": "pilloledienergia-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pillole di Energia API",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^0.0.1-alpha.70",
+    "@strapi/plugin-graphql": "^4.0.0",
+    "@strapi/plugin-i18n": "4.0.0",
+    "@strapi/plugin-users-permissions": "4.0.0",
+    "@strapi/strapi": "4.0.0",
+    "pg": "8.6.0"
+  },
+  "author": {
+    "name": "Stefano Frontini"
+  },
+  "strapi": {
+    "uuid": "7b4f3d84-ef01-4410-99b9-54ae1f8ade93"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

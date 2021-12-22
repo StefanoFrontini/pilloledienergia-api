@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pods",
+  "info": {
+    "singularName": "pod",
+    "pluralName": "pods",
+    "displayName": "pod",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "indirizzo": {
+      "type": "string"
+    },
+    "consumiMensili": {
+      "type": "json"
+    },
+    "azienda": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::azienda.azienda",
+      "inversedBy": "pods"
+    },
+    "podId": {
+      "type": "string"
+    },
+    "mensiliCommento": {
+      "type": "richtext"
+    }
+  }
+}
