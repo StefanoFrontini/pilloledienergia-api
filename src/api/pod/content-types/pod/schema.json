@@ -29,6 +29,21 @@
     },
     "mensiliCommento": {
       "type": "richtext"
+    },
+    "consumiOrari": {
+      "type": "json"
+    },
+    "fasceCommento": {
+      "type": "richtext"
+    },
+    "piccoCommento": {
+      "type": "richtext"
+    },
+    "piccoConsumiCommento": {
+      "type": "richtext"
+    },
+    "orariCommento": {
+      "type": "richtext"
     }
   }
 }
