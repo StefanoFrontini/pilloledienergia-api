@@ -5,7 +5,6 @@ module.exports = [
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
-
   {
     name: "strapi::body",
     config: {
@@ -14,6 +13,7 @@ module.exports = [
       textLimit: "10mb",
     },
   },
+  "strapi::session",
   "strapi::favicon",
   "strapi::public",
 ];
