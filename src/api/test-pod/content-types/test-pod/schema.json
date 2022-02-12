@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_pods",
+  "info": {
+    "singularName": "test-pod",
+    "pluralName": "test-pods",
+    "displayName": "testPod",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "indirizzo": {
+      "type": "string"
+    },
+    "consumiMensili": {
+      "type": "json"
+    },
+    "podId": {
+      "type": "string"
+    },
+    "mensiliCommento": {
+      "type": "richtext"
+    },
+    "consumiOrari": {
+      "type": "json"
+    },
+    "fasceCommento": {
+      "type": "richtext"
+    },
+    "piccoCommento": {
+      "type": "richtext"
+    },
+    "piccoConsumiCommento": {
+      "type": "richtext"
+    },
+    "orariCommento": {
+      "type": "richtext"
+    },
+    "azienda": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::test-azienda.test-azienda",
+      "inversedBy": "pods"
+    }
+  }
+}

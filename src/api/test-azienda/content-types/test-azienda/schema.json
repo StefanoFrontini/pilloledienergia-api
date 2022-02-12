@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_aziendas",
+  "info": {
+    "singularName": "test-azienda",
+    "pluralName": "test-aziendas",
+    "displayName": "testAzienda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ragioneSociale": {
+      "type": "string"
+    },
+    "partitaIva": {
+      "type": "string"
+    },
+    "pods": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::test-pod.test-pod",
+      "mappedBy": "azienda"
+    },
+    "pdrs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::test-pdr.test-pdr",
+      "mappedBy": "azienda"
+    }
+  }
+}
