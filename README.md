@@ -1,3 +1,3 @@
-# Strapi application
+# Pillole di Energia API
 
-A quick description of your strapi application
+Backend of [Energy Dashboard](https://energy-report.netlify.app/)
