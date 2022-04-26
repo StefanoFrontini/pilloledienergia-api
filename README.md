@@ -56,7 +56,6 @@ $ npm run develop
 ```
 
 ## Links
-- [Live site](https://pilloledienergia-api.herokuapp.com/admin/auth/login)
 
 You can get dummy data here:
 
