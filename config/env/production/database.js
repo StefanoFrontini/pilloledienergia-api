@@ -24,9 +24,9 @@ module.exports = ({ env }) => ({
       database: env("PGDATABASE"),
       user: env("PGUSER"),
       password: env("PGPASSWORD"),
-      // ssl: {
-      //   rejectUnauthorized: false,
-      // },
+      ssl: {
+        rejectUnauthorized: false,
+      },
     },
     debug: false,
     // options: {
