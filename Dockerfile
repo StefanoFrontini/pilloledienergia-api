@@ -6,7 +6,7 @@ FROM node:16
 RUN apt-get update && apt-get install libvips-dev -y
 
 # Set environment
-ARG NODE_ENV=development
+ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 
 
@@ -29,5 +29,5 @@ RUN npm run build
 EXPOSE 1337
 
 # Start the Strapi application
-CMD ["npm", "run", "develop"]
-#CMD ["npm", "start"]
+#CMD ["npm", "run", "develop"]
+CMD ["npm", "start"]
