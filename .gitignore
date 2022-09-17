@@ -113,3 +113,5 @@ exports
 build
 .strapi-updater.json
 package-lock.json
+latest.dump
+fly.toml

@@ -4,4 +4,9 @@ module.exports = ({ env }) => ({
       jwtSecret: env("JWT_SECRET"),
     },
   },
+  graphql: {
+    config: {
+      playgroundAlways: true,
+    },
+  },
 });
