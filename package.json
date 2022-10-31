@@ -14,7 +14,7 @@
     "@strapi/plugin-i18n": "4.1.8",
     "@strapi/plugin-users-permissions": "4.1.8",
     "@strapi/strapi": "4.1.8",
-    "pg": "^8.6.0",
+    "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
     "webpack": "^5.68.0"
   },
