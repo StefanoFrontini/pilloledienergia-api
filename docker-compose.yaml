@@ -5,11 +5,11 @@ services:
     # build: .
     image: stefanofrontini/energydashboard:latest
     restart: always
-    # env_file: .env
+    env_file: .env
     environment:
       HOST: 0.0.0.0
       PORT: 1337
-      APP_KEYS: [someSecret, anotherSecret]
+      APP_KEYS: ${APP_KEYS}
       API_TOKEN_SALT: c7eaf02fcc48b77f2d3d97b6db455f42
       ADMIN_JWT_SECRET: 23ae9be6a77865ee6dd9ebb53f21117b
       JWT_SECRET: b5346c04-b318-40e9-9141-1a5291c4d133
@@ -50,7 +50,6 @@ services:
   #     - "5432:5432"
   #   networks:
   #     - strapi
-
 
   # pgadmin:
   #   container_name: pgadmin4_container
