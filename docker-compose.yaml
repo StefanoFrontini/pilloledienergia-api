@@ -31,8 +31,10 @@ services:
       - "1337:1337"
     networks:
       - main
-    # depends_on:
-    #   - postgres
+networks:
+  main:
+    name: main
+    external: true
 
   # strapiDB:
   #   image: postgres:latest
@@ -64,11 +66,5 @@ services:
   #     - strapi
   #   depends_on:
   #     - strapiDB
-
 # volumes:
 #     strapi-data:
-
-networks:
-  default:
-    name: main
-    external: true
