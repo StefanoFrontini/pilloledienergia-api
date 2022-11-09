@@ -114,3 +114,4 @@ build
 .strapi-updater.json
 latest.dump
 fly.toml
+docker-compose.yaml
