@@ -5,7 +5,7 @@ Backend of Energy Dashboard:
 - [Frontend live site](https://energy-report.netlify.app/)
 - [Frontend Github](https://github.com/StefanoFrontini/energy-dashboard)
 
-This is a [Strapi application](https://strapi.io/) deployed on Heroku.
+This is a [Strapi application](https://strapi.io/) deployed with Docker on a Ubuntu instance of the Oracle Cloud Infrastructure.
 
 I created 3 collection types:
 
